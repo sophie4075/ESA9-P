@@ -1,0 +1,20 @@
+/* default: white background, sans serif font */
+
+body {
+    color: #000000;
+    font-family: Monospace;
+    font-size: 13px;
+    background-color: #ffffff;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+}
+
+#container #canvas3d, #info {
+    position: absolute;
+}
+
+ 

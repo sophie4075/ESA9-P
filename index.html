@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebGL Computer Graphics</title>
+
+        <script src="lib/webgl-debug.js"></script>
+        <script src="index.mjs" type="module" ></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Select a render pass</legend>
+            <div>
+                <input type="radio" id="normal" name="passset" value="normal" checked />
+                <label for="normal">normal</label>
+            </div>
+            <div>
+                <input type="radio" id="invert" name="passset" value="invert"/>
+                <label for="invert">invert</label>
+                <input type="range" id="curtain" min="0" max="1" step="any"/>
+                <label for="curtain">curtain</label>
+            </div>
+        </fieldset>
+
+        <fieldset style="min-height:30px">
+            <legend>Stats</legend>
+            <label id="stats"></label>
+        </fieldset>
+
+        <!-- centered region with drawing canvas -->
+        <div id="container">
+            <canvas id = "canvas3d" width="800" height="600">
+                If you see this text, your browser probably does not support WebGL.
+            </canvas>
+        </div>
+    </body>
+</html>
+

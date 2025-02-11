@@ -1,0 +1,6 @@
+https://www.solarsystemscope.com/textures/
+https://de.wikipedia.org/wiki/WebGL#/media/Datei:WebGL_Logo.svg
+https://commons.wikimedia.org/wiki/File:Solarsystemscope_texture_2k_sun.jpg
+https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg
+https://www.planetminecraft.com/texture-pack/fixed-deepslate-diamond-ore/
+weitere Images mit GIMP erstellt
