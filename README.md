@@ -13,8 +13,8 @@ To view the project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/sophie4075/ESA9-P.git
+   cd ESA9-P
    ```
 2. Ensure you have Python installed (version 3.x recommended).
 3. Run the following command to start a local server:
